@@ -27,8 +27,8 @@ keep = [
 ]
 df = df[keep]
 
-# 5) Sample 10% of rows
-sample_df = df.sample(frac=0.10, random_state=42)
+# 5) Sample 5% of rows
+sample_df = df.sample(frac=0.05, random_state=42)
 
 # 6) Save the cleaned, sampled CSV
 out_path = 'data/water_potability_clean_sample.csv'
