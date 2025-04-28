@@ -221,7 +221,4 @@ See `MAINTENANCE.md` for the quarterly cadence:
 
 ---
 
-## License
-
-This project is distributed under the MIT License. See `LICENSE` for details.
 
