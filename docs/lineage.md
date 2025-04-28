@@ -1,10 +1,10 @@
-# Data Lineage for Water Portability
+# Data Lineage for Water potability
 
-This framework tracks the flow of the Water Portability dataset from raw CSV to final reporting.
+This framework tracks the flow of the Water potability dataset from raw CSV to final reporting.
 
       ┌──────────────────────────────┐
       │  Source:                     │
-      │  water_portability.csv       │
+      │  water_potability.csv       │
       └──────────────┬───────────────┘
                      │ Extract
                      ▼
@@ -16,7 +16,7 @@ This framework tracks the flow of the Water Portability dataset from raw CSV to 
                      ▼
       ┌──────────────────────────────┐
       │  Database: SQLite or Postgres│
-      │  (water_portability table)   │
+      │  (water_potability table)   │
       └──────────────┬───────────────┘
                      │ Query
                      ▼
@@ -25,7 +25,7 @@ This framework tracks the flow of the Water Portability dataset from raw CSV to 
       │  Jupyter notebooks or BI     │
       └──────────────────────────────┘
 
-1. **Extract** the raw CSV (`data/water_portability.csv`).
+1. **Extract** the raw CSV (`data/water_potability.csv`).
 2. **Transform & Clean** using `src/quality_checks/checks.py` (and/or SQL in `checks.sql`).
-3. **Load** cleaned data into your chosen database (e.g. SQLite: `CREATE TABLE water_portability AS SELECT * FROM cleaned_data;`).
-4. **Query & Report** using notebooks or BI tools against the `water_portability` table.
+3. **Load** cleaned data into your chosen database (e.g. SQLite: `CREATE TABLE water_potability AS SELECT * FROM cleaned_data;`).
+4. **Query & Report** using notebooks or BI tools against the `water_potability` table.
