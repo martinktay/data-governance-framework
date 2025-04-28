@@ -1,6 +1,6 @@
-- name: water_portability
+- name: water_potability
   owner: Municipal Water Authority
-  source: data/water_portability.csv
+  source: data/water_potabilitycsv
   classification: internal
   refresh: one-off
   description: |
