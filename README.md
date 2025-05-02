@@ -73,7 +73,7 @@ The goal of this project is to establish a **lightweight data governance framewo
 ### Prerequisites
 
 - **Git** (with [Git LFS](https://git-lfs.github.com/) installed)
-- **Python** 3.7+
+- **Python** 3.9+
 - **pip** package manager
 
 ### Clone the repository
